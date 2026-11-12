@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <title>S.R. PRIME MART AI Bot</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="header">
+    <h2>S.R. PRIME MART</h2>
+    <span class="badge">AI Live Bot</span>
+  </div>
+
+  <div class="toggle-row">
+    <span class="toggle-label">অটো-রিপ্লাই চালু রাখুন (Live)</span>
+    <input type="checkbox" id="botEnabled">
+  </div>
+
+  <label for="apiKey">Gemini API Key:</label>
+  <input type="password" id="apiKey" placeholder="AIzaSy...">
+
+  <label for="shopInfo">শপ ও পণ্যের তথ্য (AI এটি দেখে রিপ্লাই দেবে):</label>
+  <textarea id="shopInfo">আমাদের পেজের নাম S.R. PRIME MART। 
+আমরা প্রিমিয়াম কোয়ালিটির পণ্য বিক্রি করি (যেমন: Men's Bar Bracelet - দাম ৫৫০ টাকা)।
+ডেলিভারি চার্জ: ঢাকার ভেতরে ৭০ টাকা, ঢাকার বাইরে ১৩০ টাকা। সারা বাংলাদেশে ক্যাশ অন ডেলিভারি সুবিধা আছে।
+কাস্টমার অর্ডার করতে চাইলে তাদের নাম, সম্পূর্ণ ঠিকানা এবং মোবাইল নম্বর চাইবে।
+সবসময় ভদ্র, আন্তরিক এবং সংক্ষিপ্ত বাংলায় উত্তর দেবে।</textarea>
+
+  <button id="saveBtn">সেটিংস সেভ করুন</button>
+  <div id="status"></div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
