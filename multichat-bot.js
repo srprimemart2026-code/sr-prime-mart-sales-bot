@@ -2,7 +2,7 @@ const puppeteer = require('puppeteer');
 const fetch = require('node-fetch');
 
 // আপনার Gemini API Key এখানে দিন
-const GEMINI_API_KEY = 'YOUR_GEMINI_API_KEY_HERE';
+const GEMINI_API_KEY = 'AQ.Ab8RN6LxOh86ANrE3LB6kX5r8OBTlZ6q0HToMvhPUiUZzUppUg';
 
 // শপের তথ্য এবং সেলস গাইডলাইন (যাতে কাস্টমার দেখলেই কেনার আগ্রহ পায়)
 const SHOP_INFO = `
