@@ -1,0 +1,10 @@
+{
+  "name": "sr-prime-mart-sales-bot",
+  "version": "1.0.0",
+  "description": "Friendly AI Sales Bot for S.R. PRIME MART",
+  "main": "bot.js",
+  "dependencies": {
+    "node-fetch": "^2.6.7",
+    "puppeteer": "^21.0.0"
+  }
+}
